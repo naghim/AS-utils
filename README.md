@@ -52,3 +52,10 @@ A GUI-based desktop tool crafted specifically for `.ass` subtitle files. SubAssi
 This tool streamlines the subtitle translation process, making it efficient and user-friendly.
 
 > Note: **SubAssistant** also has its own dedicated repository.
+
+### 5. [Selaphiel-bot](https://github.com/naghim/Selaphiel-bot)
+
+💬 **The Messenger Archangel**  
+Selaphiel is a bot that forwards Discord messages from a channel to a public Twitter/X feed. Perfect for sharing community updates or highlights with the world in real time.
+
+> Note: **Selaphiel-bot** also has its own dedicated repository.
