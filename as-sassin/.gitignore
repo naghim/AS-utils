@@ -1,0 +1,16 @@
+# Data files
+output.json
+config.json
+
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db

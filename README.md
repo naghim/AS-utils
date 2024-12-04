@@ -29,7 +29,16 @@ This script renames image files in the current directory. It:
 
 This is an older and simpler version of the core functionality of the `auto_zipper.py` script.
 
-### 3. [Fontos](https://github.com/naghim/fontos)
+### 3. [`as-sassin.py`](as-sassin/README.md)
+
+This script is a web scraper that extracts data from websites based on a configurable `config.json`. It uses BeautifulSoup to parse HTML and saves results in `output.json`. It:
+
+- Scrapes multiple modules and handles pagination.
+- Customizable via `config.json`.
+
+Optimized for G-Portál blogs but adaptable for other websites. Customization points are marked in the code.
+
+### 4. [Fontos](https://github.com/naghim/fontos)
 
 ⚡ **Font Finder and Collector**  
 This application helps manage fonts for `.ass` subtitle files. It:
@@ -39,7 +48,7 @@ This application helps manage fonts for `.ass` subtitle files. It:
 
 > Note: **Fontos** now has its own dedicated repository.
 
-### 4. [SubAssistant](https://github.com/naghim/subassistant)
+### 5. [SubAssistant](https://github.com/naghim/subassistant)
 
 ✨ **Subtitle Translation Made Easy**  
 A GUI-based desktop tool crafted specifically for `.ass` subtitle files. SubAssistant is designed for translators and proofreaders, offering features such as:
@@ -53,7 +62,7 @@ This tool streamlines the subtitle translation process, making it efficient and 
 
 > Note: **SubAssistant** also has its own dedicated repository.
 
-### 5. [Selaphiel-bot](https://github.com/naghim/Selaphiel-bot)
+### 6. [Selaphiel-bot](https://github.com/naghim/Selaphiel-bot)
 
 💬 **The Messenger Archangel**  
 Selaphiel is a bot that forwards Discord messages from a channel to a public Twitter/X feed. Perfect for sharing community updates or highlights with the world in real time.
