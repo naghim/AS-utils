@@ -29,7 +29,7 @@ This script renames image files in the current directory. It:
 
 This is an older and simpler version of the core functionality of the `auto_zipper.py` script.
 
-### 3. [`as-sassin.py`](as-sassin/README.md)
+### 3. [`as_sassin.py`](as_sassin/README.md)
 
 This script is a web scraper that extracts data from websites based on a configurable `config.json`. It uses BeautifulSoup to parse HTML and saves results in `output.json`. It:
 

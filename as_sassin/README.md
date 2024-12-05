@@ -1,10 +1,10 @@
-# as-sassin
+# as_sassin
 
 ~~Yes, bad puns will never end.~~
 
 ## Overview
 
-**as-sassin** is a web scraping tool designed to extract data from G-Portál websites based on a user-defined configuration (`config.json`). It retrieves HTML content, parses it with BeautifulSoup, and organizes the extracted data into a structured format.
+**as_sassin** is a web scraping tool designed to extract data from G-Portál websites based on a user-defined configuration (`config.json`). It retrieves HTML content, parses it with BeautifulSoup, and organizes the extracted data into a structured format.
 The final output is saved in a file named `output.json`.
 
 ## This Script Will
@@ -56,7 +56,7 @@ You can also install them via the [`requirements.txt`](requirements.txt).
 Run the script:
 
 ```bash
-./as-sassin.py
+./as_sassin.py
 ```
 
 ## Notes
