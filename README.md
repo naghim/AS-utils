@@ -68,3 +68,10 @@ This tool streamlines the subtitle translation process, making it efficient and 
 Selaphiel is a bot that forwards Discord messages from a channel to a public Twitter/X feed. Perfect for sharing community updates or highlights with the world in real time.
 
 > Note: **Selaphiel-bot** also has its own dedicated repository.
+
+### 7. [Novelfulll Downloader](https://github.com/naghim/Novelfulll-downloader)
+
+📥 **Download content from Novelfulll.com**  
+This Python script allows you to download images from chapters or an entire comic hosted on https://www.novelfulll.com.
+
+> Note: **Novelfulll Downloader** also has its own dedicated repository.
