@@ -1,7 +1,10 @@
-import requests
 from bs4 import BeautifulSoup
 import json
+import urllib.request
+import ssl
 
+context = ssl.create_default_context()
+context.set_ciphers('TLSv1.2')
 
 with open('config.json', 'r', encoding='utf-8') as f:
     config = json.load(f)
@@ -10,13 +13,14 @@ with open('config.json', 'r', encoding='utf-8') as f:
     BASE_URL = config.get("BASE_URL")
     MODULES = config.get("MODULES")
 
-
 def get_html(url):
     try:
-        response = requests.get(url)
-        response.raise_for_status() 
-        return response.text
-    except requests.exceptions.RequestException as e:
+        response = urllib.request.urlopen(url, context=context)
+        if response.getcode() == 200:
+            return response.read()
+        else:
+            raise Exception(f"Error: Received status code {response.getcode()}")
+    except Exception as e:
         print(f"Error fetching the URL: {e}")
         return None
 
