@@ -75,3 +75,7 @@ Selaphiel is a bot that forwards Discord messages from a channel to a public Twi
 This Python script allows you to download images from chapters or an entire comic hosted on https://www.novelfulll.com.
 
 > Note: **Novelfulll Downloader** also has its own dedicated repository.
+
+### 8. [Seriesname.com-type Scraper](seriesname.com-type-scraper/README.md)
+
+A minimal image scraper for seriesname.com-style sites, with auto image conversion, renaming, and easy customization. Built for reuse and quick setup.
